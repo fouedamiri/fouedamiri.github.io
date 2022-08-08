@@ -1,0 +1,97 @@
+@media only screen and (max-width: 992px) {
+  .grid-columns-3 {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .lead-text {
+    font-size: 16px !important;
+  }
+
+  .about_section .list_info {
+    font-size: 15px;
+  }
+
+  .section {
+    padding-left: 140px;
+    padding-right: 30px;
+  }
+
+  .service_details {
+    margin-bottom: 50px;
+  }
+
+  .portfolio_section .my_works .project_picture {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .portfolio_menu {
+    display: none;
+  }
+
+  .mobile_menu {
+    display: block;
+  }
+
+  .description {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .description .bar {
+    display: none;
+  }
+
+  .contact_me_btn {
+    margin: auto;
+  }
+
+  .grid-columns-2 {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .grid-columns-3 {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .section {
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .skills {
+    margin-top: 50px;
+  }
+
+  .hobbies {
+    margin-top: 50px;
+  }
+
+  .leave_message {
+    margin-top: 2.5rem;
+    padding-left: 0;
+  }
+
+  .services_details {
+    row-gap: 50px;
+  }
+
+  .services_details .service_details {
+    margin-bottom: 0;
+  }
+  .services_section .services_details .service_details > div i {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+  }
+}
+
+/* @media only screen and (orientation: landscape) {
+  .section {
+    height: auto !important;
+  }
+} */

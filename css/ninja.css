@@ -1,0 +1,237 @@
+/* 05-05-2022 */
+
+:root {
+  --black-color: #514f4f;
+  --white-color: #eeeeee;
+  --greenery-color: #88b04b;
+  --ultra-violet-color: #6b5b95;
+  --classic-blue-color: #34568b;
+  --rose-quartz-color: #f7cac9;
+  --serenity-color: #92a8d1;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+.container {
+  max-width: 1160px;
+  padding: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid {
+  max-width: 1900px;
+  margin: 0 auto;
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  /* grid-auto-rows: minmax(100px, auto); */
+}
+
+.grid-item {
+  background-color: var(--classic-blue-color);
+  color: var(--white-color);
+  padding: 15px;
+}
+.input1 {
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid var(--black-color);
+  width: 100%;
+}
+
+.button1 {
+  margin-top: 10px;
+  padding: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid var(--black-color);
+  background-color: var(--greenery-color);
+}
+
+.half-the-width {
+  width: 50%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+/*** Colors Classes ***/
+
+.greenery-color {
+  color: var(--greenery-color);
+}
+
+.greenery-bg {
+  background-color: var(--greenery-color);
+}
+
+.spacer {
+  height: 30px;
+}
+
+.my-table {
+  margin-top: 10px;
+}
+
+.my-table th {
+  text-align: left;
+}
+
+.my-table th,
+.my-table td {
+  padding: 8px;
+  background-color: var(--rose-quartz-color);
+}
+
+/***** Navbar Styling *****/
+
+.navbar {
+  overflow: hidden;
+  color: var(--white-color);
+  background-color: var(--classic-blue-color);
+}
+
+.navbar a {
+  padding: 15px;
+  display: block;
+  color: var(--white-color);
+  background-color: var(--ultra-violet-color);
+}
+
+.navbar a:hover {
+  background-color: var(--greenery-color);
+}
+
+/* .navbar ul {
+    
+} */
+
+.navbar ul li {
+  list-style-type: none;
+  float: left;
+}
+
+/***** CSS Grid System *****/
+
+.display-grid {
+  display: grid;
+}
+
+.grid-columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/***** Flexbox *****/
+
+.display-flex {
+  display: flex;
+}
+
+/***** Padding Classes *****/
+
+.p-1 {
+  padding: 0.5rem;
+}
+
+.pr-1 {
+  padding-right: 0.5rem;
+}
+
+.pl-1 {
+  padding-left: 0.5rem;
+}
+
+/***** Margin Classes *****/
+
+.m-1 {
+  margin: 0.5rem;
+}
+
+.mt-1 {
+  margin-top: 0.5rem;
+}
+
+.mt-5 {
+  margin-top: 2.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+
+.mr-1 {
+  margin-right: 0.5rem;
+}
+
+.ml-1 {
+  margin-left: 0.5rem;
+}
+
+/***** Utilities *****/
+
+.pill {
+  display: inline;
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: #2b061e;
+  background-color: #fbbfca;
+  margin-right: 8px;
+}
+
+.hv-center {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
