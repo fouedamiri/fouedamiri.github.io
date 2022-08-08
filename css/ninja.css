@@ -222,12 +222,13 @@ textarea {
 /***** Utilities *****/
 
 .pill {
-  display: inline;
+  display: inline-block;
   padding: 5px 10px;
   border-radius: 8px;
   color: #2b061e;
   background-color: #fbbfca;
   margin-right: 8px;
+  margin-bottom: 10px;
 }
 
 .hv-center {
