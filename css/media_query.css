@@ -12,6 +12,7 @@
   }
 
   .section {
+    height: auto;
     padding-left: 140px;
     padding-right: 30px;
   }
@@ -21,7 +22,7 @@
   }
 
   .portfolio_section .my_works .project_picture {
-    height: auto;
+    /* height: auto; */
   }
 }
 
@@ -56,7 +57,7 @@
   }
 
   .section {
-    height: auto;
+    
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 50px;

@@ -7,7 +7,7 @@
 }
 
 * {
-  font-family: 'Lato';
+  font-family: 'Monospace';
 }
 
 body {
@@ -60,6 +60,7 @@ body {
   background-color: var(--orange_color);
   display: grid;
   align-content: center;
+  overflow: hidden;
 }
 
 .portfolio_menu ul li {
@@ -157,7 +158,7 @@ body {
   height: 250px;
   width: 250px;
   border-radius: 100%;
-  background-image: url('../images/foued.jpg');
+  background-image: url('../images/profile_picture.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   border: 10px solid var(--white_color);
@@ -227,7 +228,7 @@ body {
 /***** ABOUT Section *****/
 
 .section {
-  height: 100vh;
+  /* height: 100vh; */
   padding-left: 160px;
   padding-right: 100px;
   padding-top: 50px;
@@ -417,11 +418,11 @@ body {
 }
 
 .services_section .service_details {
-  background-color: var(--dark_blue);
-  color: var(--grey_color);
+  background-color: #eee;
+  color: var(--dark_blue);
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 2.5px 5px 15px var(--dark_blue);
+  box-shadow: 3px 3px 15px var(--dark_blue);
 }
 .services_section .services_details .service_details > div {
   align-items: center;
@@ -440,14 +441,17 @@ body {
   font-size: 25px;
   height: 50px;
   width: 50px;
+  flex-basis: 50px;
+  flex-grow: 0;
+  flex-shrink: 0;
   text-align: center;
   line-height: 50px;
 }
 
 .service_details .service_name {
-  color: var(--white_color);
+  color: var(--dark_blue);
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .service_details .service_description {
