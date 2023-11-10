@@ -41,3 +41,11 @@ addEventListenersToMenuItems()
 function hideMenu() {
   mobile_menu_list.classList.remove('height-300')
 }
+
+
+
+// Set current year
+const current_year = document.getElementById("current_year");
+const currentDate = new Date();
+const currentYear = currentDate.getFullYear();
+current_year.textContent = currentYear;

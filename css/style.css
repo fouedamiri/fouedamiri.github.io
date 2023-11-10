@@ -522,3 +522,7 @@ body {
     height: 50%;
   }
 }
+
+.inherit_color {
+  color: inherit
+}
