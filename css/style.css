@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Ubuntu:wght@700&display=swap');
+
+
 :root {
   --dark_blue: #2b061e;
   --red_color: #875053;
@@ -7,7 +11,7 @@
 }
 
 * {
- font-family: 'Inter', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 body {
@@ -67,7 +71,7 @@ body {
   cursor: pointer;
   text-align: center;
   color: var(--dark_blue);
-  /* background-color: var(--red_color); */
+
 }
 
 .portfolio_menu ul li a {
@@ -158,7 +162,7 @@ body {
   height: 250px;
   width: 250px;
   border-radius: 100%;
-  background-image: url('../images/profile_picture.jpg');
+  background-image: url("../images/profile_picture.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border: 10px solid var(--white_color);
@@ -167,12 +171,16 @@ body {
 
 .profile_name {
   margin-top: 20px;
-  font-size: 32px;
+  font-size: 35px;
   color: var(--orange_color);
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
 }
 
 .profile_job {
   margin-top: 10px;
+  font-style: italic;
+
   color: var(--white_color);
 }
 
@@ -180,7 +188,6 @@ body {
   position: relative;
   padding-left: 80px;
   padding-right: 80px;
-  /* padding-top: 100px; */
   display: grid;
   align-content: center;
   animation-name: rightToLeft;
@@ -240,12 +247,15 @@ body {
 .section_heading {
   letter-spacing: 1px;
   color: var(--orange_color);
+  font-family: "Ubuntu", sans-serif;
   background-color: var(--red_color);
   padding: 10px;
   border-radius: 10px;
+  opacity: 0.9;
   height: 50px;
   overflow: hidden;
   animation: headingRotation 0.9s;
+
 }
 
 .section_content {
@@ -288,13 +298,17 @@ body {
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 5px;
-  opacity: 0.9;
+  opacity: 0.85;
 }
 
-.about_section .info_pill  a {
-  
+.info_pill:hover {
+  margin-left: -8px;
+  opacity: 1;
+  transition: 0.2s
+}
+
+.about_section .info_pill a {
   color: var(--grey_color);
-  
 }
 
 .about_section .hobbie_pill {
@@ -331,7 +345,6 @@ body {
   line-height: 2;
 }
 
-
 .contact_me_section .section_content div ul,
 .contact_me_section .section_content div form {
   margin-top: 50px;
@@ -360,11 +373,11 @@ body {
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 5px;
-  transition-duration: 0.4s;
+  transition-duration: 0.2s;
 }
 
 .contact_me_section form button:hover {
-  box-shadow: 2px 5px 5px var(--dark_blue);
+  box-shadow: 0px 5px 10px var(--dark_blue);
 }
 
 .contact_me_section .content_heading {
@@ -426,7 +439,6 @@ body {
 }
 .resume_section .section_content {
   margin-top: 25px;
-  
 }
 
 .content_heading {
@@ -446,7 +458,6 @@ body {
 .resume_section .section_content .skills_details h3 {
   margin-top: 25px;
 }
-
 
 .resume_section .section_content .skills_details h3 {
   color: var(--red_color);
@@ -470,8 +481,12 @@ body {
   margin-top: 25px;
 }
 
+/* .services_section .section_content .introduction {
+  
+} */
+
 .services_section .section_content .services_details {
-  margin-top: 50px;
+  margin-top: 80px;
   column-gap: 25px;
 }
 
@@ -481,7 +496,6 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-  
 }
 .services_section .services_details .service_details > div {
   align-items: center;
@@ -496,21 +510,25 @@ body {
   margin-right: 20px;
   color: var(--grey_color);
   background-color: var(--red_color);
-  border-radius: 50%;
-  font-size: 25px;
-  height: 50px;
-  width: 50px;
+  border-radius: 10%;
+  font-size: 35px;
+  height: 75px;
+  width: 75px;
   flex-basis: 50px;
   flex-grow: 0;
   flex-shrink: 0;
   text-align: center;
-  line-height: 50px;
+  line-height: 75px;
 }
 
 .service_details .service_name {
   color: var(--red_color);
   text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
   font-size: 20px;
+  text-align: center;
+  
+
 }
 
 .service_details .service_description {
@@ -519,6 +537,19 @@ body {
   padding-top: 10px;
 }
 
+
+.service_icon_parent {
+  position: relative;
+  padding-top: 25px
+}
+
+.service_icon {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
 /***** Footer *****/
 .portfolio_footer {
   padding-top: 25px;
@@ -583,5 +614,5 @@ body {
 }
 
 .inherit_color {
-  color: inherit
+  color: inherit;
 }

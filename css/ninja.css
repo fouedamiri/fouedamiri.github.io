@@ -180,6 +180,10 @@ textarea {
   display: flex;
 }
 
+.flex-direction-column {
+  flex-direction: column;
+}
+
 /***** Padding Classes *****/
 
 .p-1 {
