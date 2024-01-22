@@ -454,7 +454,7 @@ body {
   margin-top: 45px;
 }
 
-.resume_section .section_content .education_details h3,
+
 .resume_section .section_content .skills_details h3 {
   margin-top: 25px;
 }
@@ -470,7 +470,18 @@ body {
   border-radius: 5px;
   margin-bottom: 10px;
   width: fit-content;
-  opacity: 0.9;
+  opacity: 0.85;
+  position: relative;
+}
+
+.education_details .degree .degree-icon {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 70px;
+  z-index: -1;
+  color: var(--grey_color);
+  opacity: 0.1
 }
 
 /***** SERVICES Section *****/

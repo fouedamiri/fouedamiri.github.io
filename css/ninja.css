@@ -233,3 +233,8 @@ textarea {
   align-content: center;
   justify-content: center;
 }
+
+.py-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
