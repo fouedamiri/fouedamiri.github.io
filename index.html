@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="fontawesome/css/all.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="images/favicon.png">
+
     <title>Foued Amiri | Portfolio</title>
   </head>
 
@@ -113,37 +115,40 @@
             </h3>
             <ul class="list_info">
               <li class="info_pill">
-                <i class="fa fa-phone"></i>
-                <b>Phone :</b>
-                +216 22 384 470
+                <b class="info_icon"><i class="fa fa-phone"></i> Phone</b>
+                <span class="info_data">+216 22 384 470</span>
               </li>
               <li class="info_pill">
-                <i class="fa fa-envelope"></i>
-                <b>Email :</b>
-                <a href="mailto:laamiri.foued@gmail.com"
+                <b class="info_icon">
+                  <i class="fa fa-envelope"></i> Email
+                </b>
+                <a class="info_data" href="mailto:laamiri.foued@gmail.com"
                   >laamiri.foued@gmail.com</a
                 >
               </li>
               <li class="info_pill">
-                <i class="fa-brands fa-github"></i>
-                <b>Github :</b>
-                <a href="https://github.com/fouedamiri" target="_blank"
+                <b class="info_icon">
+                  <i class="fa-brands fa-github"></i> Github
+                </b>
+                <a class="info_data"  href="https://github.com/fouedamiri" target="_blank"
                   >github.com/fouedamiri</a
                 >
               </li>
               <li class="info_pill">
-                <i class="fa-brands fa-linkedin"></i>
-                <b>Linkedin :</b>
-                <a
+                <b class="info_icon">
+                  <i class="fa-brands fa-linkedin"></i> Linkedin
+                </b>
+                <a class="info_data" 
                   href="https://www.linkedin.com/in/foued-amiri/"
                   target="_blank"
                   >linkedin.com/foued-amiri</a
                 >
               </li>
               <li class="info_pill">
-                <i class="fa fa-location"></i>
-                <b>Address :</b>
-                Bezina 7012, Bizerte, Tunisia
+                <b class="info_icon"><i class="fa fa-location"></i> Address
+                </b>
+                <span class="info_data" >Bezina 7012, Bizerte, Tunisia</span>
+                
               </li>
             </ul>
           </div>
@@ -273,9 +278,9 @@
             </div>
             <div class="degree">
               <h3 class="mb-1">
-                Applied Bachelor's in 
-                <br>
-                Information and Communications Sciences and <br> Technologies
+                Applied Bachelor's in
+                <br />
+                Information and Communications Sciences and Technologies
               </h3>
               <p class="py-5"><i>Faculty of Sciences of Bizerte</i></p>
               <p class="py-5">2015 - 2018</p>
@@ -345,9 +350,9 @@
       </h1>
       <div class="section_content">
         <p class="introduction lead-text text_grey">
-          My diverse skill set empowers me to excel in various aspects of software
-          development. Proficient in a range of cutting-edge technologies, I am
-          well-equipped to offer the following services :
+          My diverse skill set empowers me to excel in various aspects of
+          software development. Proficient in a range of cutting-edge
+          technologies, I am well-equipped to offer the following services :
         </p>
         <div class="services_details display-grid grid-columns-3">
           <div class="service_details">
@@ -403,24 +408,24 @@
           </h3>
           <ul class="contact_info">
             <li class="info_pill">
-              <i class="fa fa-phone"></i>
-              <b class="">Phone :</b>
-              +216 22 384 470
+              
+              <b class="info_icon"><i class="fa fa-phone"></i> Phone</b>
+              <span class="info_data">+216 22 384 470</span>
             </li>
 
             <li class="info_pill">
-              <i class="fa fa-envelope"></i>
-              <b class="">Email :</b>
-              <a href="mailto:laamiri.foued@gmail.com" class="inherit_color"
+              
+              <b class="info_icon"><i class="fa fa-envelope"></i> Email</b>
+              <a class="info_data" href="mailto:laamiri.foued@gmail.com" class="inherit_color"
                 >laamiri.foued@gmail.com</a
               >
             </li>
 
             <li class="info_pill">
-              <i class="fa fa-location"></i>
-              <b class="">Address :</b>
+              
+              <b class="info_icon"><i class="fa fa-location"></i> Address</b>
 
-              Bezina 7012, Bizerte, Tunisia
+              <span class="info_data">Bezina 7012, Bizerte, Tunisia</span>
             </li>
             <div class="mapouter">
               <div class="gmap_canvas">
@@ -460,18 +465,20 @@
             <i class="fa-solid fa-message"></i> LEAVE A MESSAGE
           </h3>
           <form action="https://formspree.io/f/xleykrlj" method="POST">
-            <input type="text" class="input1" placeholder="Name" name="name" />
+            <input type="text" class="input1" placeholder="Name" name="name" required />
             <input
               type="email"
               class="input1"
               placeholder="Email"
               name="email"
+              required
             />
             <textarea
               name="message"
               id=""
               rows="10"
               placeholder="Message"
+              required
             ></textarea>
             <button class="button1">SEND MESSAGE</button>
           </form>

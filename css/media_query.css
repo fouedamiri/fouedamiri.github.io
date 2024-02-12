@@ -82,12 +82,13 @@
   }
 
   .services_details .service_details {
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
   .services_section .services_details .service_details > div i {
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
+    height: 58px;
+    width: 58px;
+    top: -50px;
+    line-height: 58px;
   }
 }
 
