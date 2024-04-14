@@ -61,7 +61,6 @@
   }
 
   .section {
-    
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 50px;
@@ -93,6 +92,11 @@
     width: 58px;
     top: -50px;
     line-height: 58px;
+  }
+
+  .portfolio_section .my_works .project_preview {
+    height: 490px;
+    
   }
 }
 
