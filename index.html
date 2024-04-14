@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="fontawesome/css/all.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="images/favicon.png" />
 
     <title>Foued Amiri | Portfolio</title>
   </head>
@@ -119,9 +119,7 @@
                 <span class="info_data">+216 22 384 470</span>
               </li>
               <li class="info_pill">
-                <b class="info_icon">
-                  <i class="fa fa-envelope"></i> Email
-                </b>
+                <b class="info_icon"> <i class="fa fa-envelope"></i> Email </b>
                 <a class="info_data" href="mailto:laamiri.foued@gmail.com"
                   >laamiri.foued@gmail.com</a
                 >
@@ -130,7 +128,10 @@
                 <b class="info_icon">
                   <i class="fa-brands fa-github"></i> Github
                 </b>
-                <a class="info_data"  href="https://github.com/fouedamiri" target="_blank"
+                <a
+                  class="info_data"
+                  href="https://github.com/fouedamiri"
+                  target="_blank"
                   >github.com/fouedamiri</a
                 >
               </li>
@@ -138,17 +139,16 @@
                 <b class="info_icon">
                   <i class="fa-brands fa-linkedin"></i> Linkedin
                 </b>
-                <a class="info_data" 
+                <a
+                  class="info_data"
                   href="https://www.linkedin.com/in/foued-amiri/"
                   target="_blank"
                   >linkedin.com/foued-amiri</a
                 >
               </li>
               <li class="info_pill">
-                <b class="info_icon"><i class="fa fa-location"></i> Address
-                </b>
-                <span class="info_data" >Bezina 7012, Bizerte, Tunisia</span>
-                
+                <b class="info_icon"><i class="fa fa-location"></i> Address </b>
+                <span class="info_data">Bezina 7012, Bizerte, Tunisia</span>
               </li>
             </ul>
           </div>
@@ -157,7 +157,7 @@
             <h3 class="underlined_heading text_red">
               <i class="fa-solid fa-person-skiing"></i> HOBBIES
             </h3>
-            <div class="display-grid grid-columns-2">
+            <div class="hobbies_list display-grid grid-columns-2">
               <ul class="list_info">
                 <li class="hobbie_pill">
                   <i class="fa fa-book"></i>
@@ -203,19 +203,20 @@
         </p>
 
         <div class="my_works display-grid grid-columns-2">
-          <div class="project_picture">
-            <div class="hv-center">
-              <h4>E-commerce website</h4>
-              <button class="button1">
-                <i class="fa fa-eye"></i>
-                Take a look
-              </button>
-            </div>
-          </div>
-          <div class="project_picture">
-            <div class="hv-center">
-              <h4>NextJS Blog App</h4>
-              <a href="https://nextjs-blog-ndy3.vercel.app/" target="_blank">
+          <!-- PROJECT 1 -->
+          <div class="project_preview">
+            <div class="overlay hv-center">
+              <h4 class="project_title">Laravel Fruits Shop</h4>
+              <p class="project_description">
+                A showcase of my expertise in web development and e-commerce
+                solutions. Leveraging the power of Laravel, I've crafted a
+                dynamic online fruit store that seamlessly integrates
+                functionality and aesthetics. From backend intricacies to
+                frontend finesse, this project demonstrates my ability to create
+                robust web applications that deliver exceptional user
+                experiences.
+              </p>
+              <a href="https://ogani-fruits-shop-101.000webhostapp.com/">
                 <button class="button1">
                   <i class="fa fa-eye"></i>
                   Take a look
@@ -223,32 +224,111 @@
               </a>
             </div>
             <iframe
-              src="https://nextjs-blog-ndy3.vercel.app/"
+              src="https://ogani-fruits-shop-101.000webhostapp.com/"
               title="NextJS Blog App"
               width="100%"
               height="100%"
             >
             </iframe>
           </div>
-          <div class="project_picture">
-            <div class="hv-center">
-              <h4>Android Augmented Reality App</h4>
-              <button class="button1">
-                <i class="fa fa-eye"></i>
-                Take a look
-              </button>
+
+          <!-- PROJECT 2 -->
+          <div class="project_preview">
+            <div class="overlay hv-center">
+              <h4 class="project_title">NextJS Blog App</h4>
+              <p class="project_description">
+                Dive into the world of digital storytelling with our Next.js
+                Blog App. Crafted with precision and powered by Next.js, this
+                dynamic platform offers a seamless fusion of creativity and
+                functionality, empowering bloggers to share their ideas with the
+                world like never before. With Next.js' server-side rendering
+                capabilities, our blog app ensures lightning-fast page loads and
+                unparalleled SEO performance, maximizing visibility and
+                engagement.
+              </p>
+              <a
+                href="https://nextjs-blog-lake-one-19.vercel.app/"
+                target="_blank"
+              >
+                <button class="button1">
+                  <i class="fa fa-eye"></i>
+                  Take a look
+                </button>
+              </a>
             </div>
-            <img src="images/project (4).jpg" alt="" style="width: 100%" />
+            <iframe
+              src="https://nextjs-blog-lake-one-19.vercel.app/"
+              title="NextJS Blog App"
+              width="100%"
+              height="100%"
+            >
+            </iframe>
           </div>
-          <div class="project_picture">
-            <div class="hv-center">
-              <h4>Laravel API</h4>
-              <button class="button1">
-                <i class="fa fa-eye"></i>
-                Take a look
-              </button>
+
+          <!-- PROJECT 3 -->
+          <div class="project_preview">
+            <div class="overlay hv-center">
+              <h4 class="project_title">React Recipes App</h4>
+              <p class="project_description">
+                Introducing a flavorful journey through the world of culinary
+                delights with our React Recipes App. Seamlessly blending
+                intuitive design with robust functionality, this app is your
+                go-to destination for discovering, organizing, and creating
+                delectable dishes. With a sleek user interface and responsive
+                layout, users can effortlessly browse through an extensive
+                collection of recipes and filter by cuisine. Built with React,
+                this app ensures a seamless and dynamic user experience, making
+                cooking an enjoyable and hassle-free experience.
+              </p>
+              <a
+                href="https://recipes-react-application-demo.netlify.app"
+                target="_blank"
+              >
+                <button class="button1">
+                  <i class="fa fa-eye"></i>
+                  Take a look
+                </button>
+              </a>
             </div>
-            <img src="images/project (5).jpg" alt="" style="width: 100%" />
+            <iframe
+              src="https://recipes-react-application-demo.netlify.app/"
+              title="NextJS Blog App"
+              width="100%"
+              height="100%"
+            >
+            </iframe>
+          </div>
+
+          <!-- PROJECT 4 -->
+          <div class="project_preview">
+            <div class="overlay hv-center">
+              <h4 class="project_title">MERN Real Estate Application</h4>
+              <p class="project_description">
+                Welcome to the future of property hunting with our MERN Real
+                Estate Application. Harnessing the power of MongoDB, Express.js,
+                React, and Node.js, this cutting-edge platform revolutionizes
+                the way you explore, buy, or sell properties. Immerse yourself
+                in a visually stunning and user-friendly interface, where
+                listings come to life with high-resolution images and detailed
+                descriptions.
+              </p>
+              <a
+                href="https://mern-real-estate-application.onrender.com/"
+                target="_blank"
+              >
+                <button class="button1">
+                  <i class="fa fa-eye"></i>
+                  Take a look
+                </button>
+              </a>
+            </div>
+            <iframe
+              src="https://mern-real-estate-application.onrender.com/"
+              title="NextJS Blog App"
+              width="100%"
+              height="100%"
+            >
+            </iframe>
           </div>
         </div>
       </div>
@@ -257,13 +337,14 @@
     <section id="resume_section" class="section resume_section">
       <h1 class="section_heading bg_red text_orange">
         <i class="fa fa-list"></i>
-        RESUME
+        <span>RESUME</span>
       </h1>
 
       <div class="section_content display-grid grid-columns-2">
         <div class="education">
           <h2 class="content_heading">
-            <i class="fa-solid fa-graduation-cap"></i> EDUCATION
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>EDUCATION</span>
           </h2>
           <div class="education_details">
             <div class="degree">
@@ -296,7 +377,8 @@
         </div>
         <div class="skills">
           <h2 class="content_heading">
-            <i class="fa-solid fa-screwdriver-wrench"></i> SKILLS
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <span>SKILLS</span>
           </h2>
           <div class="skills_details">
             <h3>Frontend Web Developement :</h3>
@@ -346,7 +428,7 @@
     <section id="services_section" class="section services_section">
       <h1 class="section_heading">
         <i class="fa-solid fa-computer"></i>
-        SERVICES
+        <span>SERVICES</span>
       </h1>
       <div class="section_content">
         <p class="introduction lead-text text_grey">
@@ -399,7 +481,7 @@
     <section id="contact_me_section" class="section contact_me_section">
       <h1 class="section_heading">
         <i class="fa fa-envelope"></i>
-        CONTACT ME
+        <span>CONTACT ME</span>
       </h1>
       <div class="section_content display-grid grid-columns-2">
         <div class="pr-1">
@@ -408,21 +490,21 @@
           </h3>
           <ul class="contact_info">
             <li class="info_pill">
-              
               <b class="info_icon"><i class="fa fa-phone"></i> Phone</b>
               <span class="info_data">+216 22 384 470</span>
             </li>
 
             <li class="info_pill">
-              
               <b class="info_icon"><i class="fa fa-envelope"></i> Email</b>
-              <a class="info_data" href="mailto:laamiri.foued@gmail.com" class="inherit_color"
+              <a
+                class="info_data"
+                href="mailto:laamiri.foued@gmail.com"
+                class="inherit_color"
                 >laamiri.foued@gmail.com</a
               >
             </li>
 
             <li class="info_pill">
-              
               <b class="info_icon"><i class="fa fa-location"></i> Address</b>
 
               <span class="info_data">Bezina 7012, Bizerte, Tunisia</span>
@@ -465,7 +547,13 @@
             <i class="fa-solid fa-message"></i> LEAVE A MESSAGE
           </h3>
           <form action="https://formspree.io/f/xleykrlj" method="POST">
-            <input type="text" class="input1" placeholder="Name" name="name" required />
+            <input
+              type="text"
+              class="input1"
+              placeholder="Name"
+              name="name"
+              required
+            />
             <input
               type="email"
               class="input1"

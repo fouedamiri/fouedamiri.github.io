@@ -21,9 +21,9 @@
     margin-bottom: 50px;
   }
 
-  .portfolio_section .my_works .project_picture {
-    /* height: auto; */
-  }
+  /* .portfolio_section .my_works .project_picture {
+    height: auto;
+  } */
 }
 
 @media only screen and (max-width: 768px) {
@@ -50,6 +50,10 @@
 
   .grid-columns-2 {
     grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .hobbies_list.grid-columns-2 {
+    grid-template-columns: repeat(2, 1fr) !important;
   }
 
   .grid-columns-3 {
