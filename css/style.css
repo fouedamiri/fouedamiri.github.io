@@ -52,7 +52,7 @@ body {
   gap: 25px
 }
 
-/***** ENU *****/
+/***** MENU *****/
 
 .portfolio_menu {
   position: fixed;
@@ -486,6 +486,7 @@ body {
   opacity: 0.8;
   border: 2px solid var(--dark_blue);
   text-align: center;
+  text-transform: uppercase;
 }
 
 .resume_section .section_content .skills_details h3 {
