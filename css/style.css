@@ -49,7 +49,7 @@ body {
 }
 
 .gap-25 {
-  gap: 25px
+  gap: 25px;
 }
 
 /***** MENU *****/
@@ -601,6 +601,8 @@ body {
 
 .gmap_canvas {
   margin-top: 25px;
+  border: 5px solid var(--grey_color) !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 /***** ANIMATIONS *****/
